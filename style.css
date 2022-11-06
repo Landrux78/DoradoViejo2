@@ -97,12 +97,13 @@ header a:hover{
     background-position: center center;
 }
 
-#hero h1{
+#hero h2{
     color: #9fd3ddf8;
+    margin: 0 0 100px 0;
 }
 
-#parte-2{
-
+#hero button{
+    margin: 200px 0 0 0;
 }
 
 #parte-2 .container{
@@ -123,12 +124,20 @@ header a:hover{
     margin-top: 0;
 }
 
+.texto-correspondiente h3{
+    color: #fff;
+}
+
 .texto-correspondiente p{
     display: none;
 }
 
 .texto-correspondiente .carta{
-
+    background-position: center center;
+    background-size: cover;
+    padding: 30px;
+    margin: 30px;
+    border-radius: 20px;
 }
 
 .carta:first-child{
@@ -146,7 +155,7 @@ header a:hover{
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     )
-    ,url(./asset/art-pesca.jpg);
+    ,url(./asset/artic-pesca.jpg);
 }
 
 .carta:nth-child(3){
@@ -155,5 +164,66 @@ header a:hover{
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     )
-    ,url(./asset/seguridad.jpg);
+    ,url(./asset/seguridad-1.jpg);
+}
+
+.banner{
+    text-align: center;
+    padding: 200px 12px;
+}
+
+/* FORMULARIO */
+
+.contacto{
+    background: #3cb3c8f8;
+    padding: 50px 0;
+    color: #fff;
+}
+
+.contacto h4{
+    text-align: center;
+    font-size: 25px;
+    margin: 0 0 20px 0;
+}
+
+.contacto form{
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.datos-form{
+    display: flex;
+}
+
+.datos-form{
+    padding: 10px;
+    flex: 1;
+}
+
+.datos-form div{
+    padding:  10px;
+    flex: 1;
+}
+
+form label{
+    display: block;
+    margin: 0 0 10px 0;
+}
+
+form input,
+form textarea{
+    background: #3cb3c8f8;
+    border-radius: 10px;
+    border: 2px solid #238192f8;
+    padding: 10px 5px;
+    outline: 0;
+    color: #fff;
+    outline: 0;
+    width: 100%;
+}
+
+form  input:focus,
+form textarea:focus{
+    border-color: #3cb3c8f8 ;
+    box-shadow: 0 0 0 1px #3cb3c8f8;
 }
