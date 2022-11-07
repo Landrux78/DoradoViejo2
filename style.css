@@ -43,14 +43,15 @@ button:hover{
 }
 
 header{
-    background-color: rgba(245,245,245);
+    height: 100px;
+    background:#3cb3c86c;
 }
 
 header .logo{
     margin: 0;
     padding: 25px 30px;
     font-weight: 500;
-    color: #3cb3c8f8;
+    color: #175a66fd;
     font-size: 2em;
 }
 
@@ -61,18 +62,16 @@ header .container{
 }
 
 header nav{
+    width: 100%;
     display: flex;
-    flex-direction: column;
-    text-align:center;
-    padding-bottom: 25px;
+    justify-content: space-between;
 }
 
 header a{
-    padding: 5px 12px;
     text-decoration: none;
     font-weight: bold;
     font-size:1.2em;
-    color: rgba(0, 0, 0, 0.664);
+    color: #fff;
 }
 
 header a:hover{
@@ -212,7 +211,7 @@ form label{
 
 form input,
 form textarea{
-    background: #3cb3c8f8;
+    background: #215e69f8;
     border-radius: 10px;
     border: 2px solid #238192f8;
     padding: 10px 5px;
@@ -225,5 +224,16 @@ form textarea{
 form  input:focus,
 form textarea:focus{
     border-color: #3cb3c8f8 ;
-    box-shadow: 0 0 0 1px #3cb3c8f8;
+    box-shadow: 0 0 0 1px #054c58f8;
+}
+
+form input::placeholder,
+form textarea::placeholder{
+    color: #fff;
+}
+
+.mensaje{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
 }
