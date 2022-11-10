@@ -180,29 +180,41 @@ header a:hover,
     padding: 200px 12px;
 }
 
-.texto-correspondiente {
+.secciones {
     background-color: #65dcf1f8;
     text-align: center;
 }
 
-.texto-correspondiente .container{
+.secciones .container{
     padding: 150px 12px;
 }
 
-.texto-correspondiente h2{
+.secciones h2{
+    animation-name: example;
+    position: relative;
+    animation-duration: 4s;
+    animation-delay: 2s;
     margin-top: 0;
 }
 
-.texto-correspondiente h3{
+@keyframes example {
+    0%  {color:#b3f649f8; left:0px; top:0px;}
+    25% {color:#c8502f; top:0px;}
+    50% {color:#1132ea6c; top:50px;}
+    75% {color:yellowgreen; left:0px; top:0px;}
+    100%{color:black;left:0px; top:0px;}
+}
+
+.secciones h3{
     color: #fff;
     margin-bottom: 70px;
 }
 
-.texto-correspondiente p{
+.secciones p{
     display: none;
 }
 
-.texto-correspondiente .carta{
+.secciones .carta{
     background-position: center center;
     background-size: cover;
     padding: 30px;
