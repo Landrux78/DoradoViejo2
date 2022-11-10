@@ -22,7 +22,16 @@ p{
     font-size: 1.25em;
 }
 
-button{
+#hero h2{
+    font-weight: 500;
+    font-size:50px;
+}
+
+#hero .boton-leer-mas{
+    margin: 200px 0 0px 0;
+}
+
+.boton-leer-mas{
     font-size: 1.5em;
     font-weight:bold;
     padding: 10px 20px;
@@ -34,7 +43,7 @@ button{
     transition: 0.4s;
 }
 
-button:hover{
+.boton-leer-mas:hover{
     background-color:#65dcf1f8;
     transform: 0.4s;
 }
@@ -88,11 +97,22 @@ header a:hover,
 }
 
 #parte-2 h2{
-    color: #215e69f8;
+    font-weight: 500;
+    font-size:2.9em;
+    color: #37b9d0f8;
 }
 
 #parte-2 p{
-    color: red;
+    text-align: justify;
+}
+
+.banner{
+    position: absolute;
+    order: 1;
+}
+
+.banner img{
+    position:relative;
 }
 
 /* RESPONSIVE */
